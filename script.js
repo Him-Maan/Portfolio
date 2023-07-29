@@ -42,3 +42,6 @@ if(close){
       nav.classList.remove('active'); 
     })
 }
+window.onscroll = () => {
+  nav.classList.remove('active'); 
+}
